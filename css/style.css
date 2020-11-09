@@ -1,0 +1,135 @@
+:root {
+    --red-color: #ff5844;
+    --blue-color: #a6d3f2;
+    --yellow-color: #ffbd39;
+    --green-color: #afc3a8;
+    --black-color: #000000;
+}
+
+body {
+    background-color: var(--black-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+/*     Start Header     */
+
+.header {
+    background-color: var(--yellow-color);
+}
+
+.header img {
+    max-width: 180px;
+}
+
+.header p {
+    font-size: 25px;
+    margin-top: 25px;
+    color: #394149;
+    font-weight: 600;
+}
+
+/*     End Header     */
+
+/*     Start Navbar     */
+
+.nav-bar {
+    border-bottom: 1px solid #eee;
+}
+
+.nav-bar ul li {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.nav-bar .nav-link {
+    color: #fff !important;
+}
+
+.nav-bar .nav-link:hover,
+.nav-bar .nav-link:active {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+/*     End Navbar     */
+
+/*     Start Hero-section     */
+
+.hero-section {
+    padding: 50px 0;
+}
+
+.hero-section .main-text {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.hero-section .text-yellow {
+    color: var(--yellow-color);
+}
+
+.hero-section .btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    color: #212529;
+    background-color: var(--yellow-color);
+    border-color: #d39e00;
+}
+
+.hero-section img {
+    max-width: 65vh;
+    animation: slide 1.5s
+}
+
+
+/*     End Hero-section     */
+
+/*     Start Card-section     */
+
+.card-section {
+    padding: 50px 0;
+}
+
+.card-section h2 {
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.card {
+    background-color: #121212;
+    color: #fff;
+}
+
+.card img {
+    max-height: 35vh;
+}
+
+/*     End Card-section     */
+
+/*     Start Footer     */
+
+.footer {
+    padding: 20px 0;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+
+/*     End Footer     */
+
+
+/*     Start KeyFrame     */
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*     End KeyFrame     */
+
+
